@@ -5,7 +5,7 @@ Analog Devices' MAX78000 Chip, a knowledge distillation (Teacher-Student) deep l
 was implemented with dimensionally reduced pre-trained Wav2Vec2 serving as the teaching model to
 extract the features of the raw audio. In order to address the integration of an advanced audio recognition
 system within the limited storage space of the chip, a student model which takes raw audios and learns
-to mimic the teacher using a simpler Convolutional Neural Network was built. The model structure is
+to mimic the teacher using a simpler Custom Convolutional Neural Network was built. The model structure is
 shown below:
 <img width="967" alt="image" src="https://github.com/1724851273/Capstone-Audio-Keyword-Spotting-with-Teacher-Student-Deep-Learning/assets/66252015/7a7a5d04-1ed1-4517-abe9-8e4fc0668097">
 
