@@ -9,6 +9,11 @@ to mimic the teacher using a simpler Convolutional Neural Network was built. The
 shown below:
 <img width="967" alt="image" src="https://github.com/1724851273/Capstone-Audio-Keyword-Spotting-with-Teacher-Student-Deep-Learning/assets/66252015/7a7a5d04-1ed1-4517-abe9-8e4fc0668097">
 
+## Data:
+Two primary datasets, the Qualcomm keyword speech dataset as the keywords and the LibriSpeech as the background, were utilized for the study. 
+The Qualcomm Keyword Speech dataset contains 4,270 utterances of select English keywords: "Hey Android," "Hey Snapdragon," "Hi Galaxy," and "Hi Lumina," presented by 50 participants. For the study, the raw audio from this dataset was crucial in generating embeddings essential for the dimensionality reduction model.
+The LibriSpeech-100h-clean-audio dataset, a component of the larger LibriSpeech Automatic Speech Recognition (ASR) corpus, originates from the LibriVox initiative. This dataset provides 100 hours of clear English speech data files characterized by minimal background interference and consistent recording conditions. The recordings of this dataset served a dual purpose: they were instrumental in training and evaluating ASR models and also ensured enhancement of speech recognition and keyword spotting capabilities. To further refine the model's efficiency, recordings from this dataset acted as a backdrop during training, preventing unintended activations by commonly used daily phrases.
+
 ## Findings:
 The accuracy of the teacher model, which is Wav2Vec2 followed by a zero-shot DRL, on the background
 included training dataset was 93.93% and this is also the baseline of the student model, which is shown
