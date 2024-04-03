@@ -50,3 +50,5 @@ The teacher-student model is accurate in keyword detection and is easily customi
 for new keywords. The last dimensionality reduction layer is the only part that needs to be trained facing
 new customized keywords, which reduces the training time and the requirement of training sample size
 significantly.
+
+## Please find the [report](Analog%20Devices%20Capstone%20Paper.docx) for more information.
